@@ -1,0 +1,133 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: whitesmoke;
+  
+}
+
+header {
+  height: 70px;
+  padding: 20px;
+  background-color: darkslateblue;
+  
+}
+
+header h1 {
+  font-weight: bold;
+  font-size: 30px;
+  color: aqua;
+  text-align: center;
+}
+
+.search-form {
+border: 5px solid darkslateblue;
+min-height: 140px;
+padding: 5px 10px;
+}
+
+.search-form h2 {
+color: aqua;
+background-color: darkslateblue;
+padding: 15px;
+
+}
+
+.section {
+  display: flex;
+  height: calc(100vh - 70px);
+  padding: 20px;
+}
+
+.left-section {
+  background-color: whitesmoke;
+  width: 30%;
+  height: 100%;
+}
+
+.right-section {
+  width: 70%;
+  height: 100%;
+  margin-left: 25px;
+}
+
+.form-label {
+  padding: 20px 0;
+  margin: 3px 0;
+  font-size: 25px;
+}
+
+.form-input {
+  display: block;
+  padding: 7px ;
+  width: 50%;
+  border: 2px solid black;
+  margin: 13px 0;
+  border-radius: 0.3rem;
+}
+
+.btn {
+width: 50%;
+padding: 7px;
+border: 2px solid darkslateblue;
+color: darkslateblue;
+border-radius: 0.3rem;
+font-size: 15px;
+}
+
+.cities-list {
+  border: 5px solid darkslateblue;
+  padding: 5px 10px;
+  height: calc(100% - 140px - 20px);
+  margin-top: 20px;
+}
+
+.city-weather {
+  height: calc(30% - 10px);
+  border: 5px solid darkslateblue;
+}
+
+.city-heading {
+  padding: 20px;
+}
+
+.current-city-weather-data {
+padding: 10px;
+}
+
+.five-day-forecast {
+  height: calc(70% - 10px);
+  border: 5px solid darkslateblue;
+  margin-top: 20px;
+}
+
+.five-day-heading {
+  padding: 20px;
+}
+
+#five-day-div {
+  display: inline-flex;
+  justify-content: space-between;
+  background-color: lightslategrey;
+}
+
+.five-day-weather {
+  justify-content: space-between;
+  padding: 10px;
+  border: 2px solid darkslateblue;
+}
+
+.saved-city-button {
+  width: 50%;
+padding: 7px;
+border: 2px solid darkslateblue;
+color: darkslateblue;
+border-radius: 0.3rem;
+font-size: 15px;
+margin: 1px;
+}
