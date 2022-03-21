@@ -38,7 +38,7 @@ let savedCityInput = function (cityName) {
 
 
 let getCityCoordinates = function (cityName) {
-  let apiUrl = "http://api.openweathermap.org/geo/1.0/direct?q=" + cityName + "&appid=efd3e308974d444aaa1899062b489de3"
+  let apiUrl = "https://api.openweathermap.org/geo/1.0/direct?q=" + cityName + "&appid=efd3e308974d444aaa1899062b489de3"
   fetch(apiUrl).then(function (response) {
     if (response.ok) {
       response.json().then(function (data) {
@@ -46,6 +46,7 @@ let getCityCoordinates = function (cityName) {
       })
     }
   })
+
 }
 
 let getCityWeather = function (latitude, longitude) {
